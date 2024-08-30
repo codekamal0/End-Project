@@ -1,0 +1,457 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #545c5c;
+}
+
+#herboil-slide-item .herboil-slide-item-inner {
+  background-image: url(/assets/images/bg-1.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 120px 0 100px;
+  display: flex;
+  align-items: center;
+}
+#herboil-slide-item .herboil-slide-item-inner .herboil-slide-content-inner h1 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+#herboil-slide-item .btn-wrapper {
+  margin-top: 50px;
+}
+#herboil-slide-item .btn-wrapper .boxed-btn {
+  display: inline-block;
+  padding: 10px 30px 9px;
+  border: 1px solid;
+  border-color: #b3afab;
+  transition: all 0.3s ease-in;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  z-index: 9;
+}
+#herboil-slide-item .boxed-btn:hover {
+  color: #fff;
+  background: #c18250;
+}
+
+.top-header-area {
+  padding: 10px 0;
+  border-bottom: 1px solid;
+  border-color: #e5e5e5;
+}
+.top-header-area .top-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-header-area .top-header-inner .top-header-left .nice-select {
+  border: none;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 0;
+  padding-right: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.top-header-area .top-header-inner .top-header-logo img {
+  max-width: 130px;
+}
+.top-header-area .top-header-inner .top-header-right .header-top-menu ul li {
+  display: inline-block;
+  color: #1d2323;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.navbar-area {
+  height: 80px;
+}
+.navbar-area .navbar-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-area .navbar-inner .navbar nav ul {
+  display: flex;
+  gap: 25px;
+}
+.navbar-area .navbar-inner .header-search-shopcart {
+  display: flex;
+  align-items: center;
+}
+.navbar-area .navbar-inner .header-search-shopcart .header-search {
+  max-width: 300px;
+  margin-right: 20px;
+}
+.navbar-area .navbar-inner .header-search-shopcart .header-search .form-input-box {
+  position: relative;
+}
+.navbar-area .navbar-inner .header-search-shopcart .header-search .form-input-box input {
+  padding-right: 60px;
+  height: 40px;
+  margin: 0;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid;
+  border-color: #b3afab;
+}
+.navbar-area .navbar-inner .header-search-shopcart .header-search .form-input-box button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 18px;
+  margin-top: 0;
+}
+.navbar-area .navbar-inner .header-search-shopcart .header-search .form-input-box .navbar ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 25px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+.breadcrumb-area {
+  padding: 20px 0;
+  background-color: #e6e3ce;
+}
+.breadcrumb-area .breadcrumb-inner li li::after {
+  position: absolute;
+  right: -10px;
+  top: 0;
+  content: "/";
+}
+
+#contact-area {
+  padding-bottom: 120px;
+  padding-top: 115px;
+}
+#contact-area .contact-address-item {
+  margin-bottom: 50px;
+}
+#contact-area .contact-address-item h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-color: #c6c7c7;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.contact-section-title {
+  margin-bottom: 30px;
+}
+.contact-section-title .section-title {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+.contact-inner .contact-form-area .contact-form-box textarea {
+  border-color: #c6c7c7;
+  resize: vertical;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: #c6c7c7;
+  color: #545c5c;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 0;
+  margin-bottom: 30px;
+  min-height: 120px;
+}
+.contact-inner .contact-form-area .contact-form-box input {
+  border-color: #c6c7c7;
+  height: 55px;
+  background-color: transparent;
+  border: 1px solid;
+  color: #545c5c;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 10px;
+  font-size: 16px;
+  box-shadow: none;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.contact-inner .contact-form-area .contact-form-box .btn {
+  margin-top: 0;
+  display: block;
+}
+.contact-inner .contact-form-area .contact-form-box .btn .form-btn {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 30px 9px;
+  border: 1px solid;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  z-index: 9;
+}
+
+footer .copyright-area {
+  padding: 15px 0;
+  font-size: 14px;
+  border-top: 1px solid;
+  border-color: rgba(189, 111, 81, 0.2);
+}
+footer .copyright-area .card-accept {
+  text-align: right;
+}
+footer .footer-top {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #ece4d7;
+}
+footer .footer-top .footer-widget {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 60px;
+}
+footer .footer-top .footer-widget .widget-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 400;
+  border: none;
+  padding-bottom: 10px;
+  position: relative;
+}
+footer .footer-top .footer-widget .aboutus-widget {
+  padding-right: 15%;
+}
+footer .footer-top .footer-widget .aboutus-widget .footer-address ul {
+  margin: 0;
+  padding: 0;
+}
+footer .footer-top .footer-widget .aboutus-widget .footer-address ul li {
+  margin: 8px 0;
+}
+footer .footer-top .footer-widget .aboutus-widget .footer-address ul li p {
+  margin-bottom: 0;
+}
+footer .footer-top .footer-widget .aboutus-widget .footer-address .footer-address-icon {
+  margin-right: 15px;
+  height: 30px;
+  line-height: 30px;
+  min-width: 20px;
+}
+footer .feature-widget-area {
+  padding: 100px 0 30px;
+  border-bottom: 1px solid;
+  border-color: #b3afab;
+  background-color: #ece4d7;
+}
+footer .feature-widget-area .feature-widget {
+  margin-bottom: 40px;
+}
+footer .feature-widget-area .feature-widget .form-input-box {
+  position: relative;
+}
+footer .feature-widget-area .feature-widget .form-input-box input {
+  padding-right: 65px;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid;
+  border-color: #b3afab;
+  background-color: transparent;
+  font-size: 16px;
+  border-radius: 0;
+}
+footer .feature-widget-area .feature-widget .form-input-box .btn-wrapper {
+  padding: 0;
+  margin-top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+footer .feature-widget-area .feature-widget .form-input-box .btn-wrapper .footer-btn {
+  display: block;
+  border: 0px;
+  padding: 0 22px;
+  background-color: #c18250;
+  color: #fff;
+  height: 50px;
+  line-height: 52px;
+}
+footer .feature-widget-area .feature-widget .btn {
+  margin-top: 30px;
+}
+footer .feature-widget-area .feature-widget .btn .footer-btn {
+  display: inline-block;
+  padding: 10px 30px 9px;
+  border: 1px solid;
+  border-color: #b3afab;
+  transition: all 0.3s ease-in;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  z-index: 9;
+}
+footer .feature-widget-area .feature-widget .btn a:hover {
+  background-color: #c18250;
+  color: #fff;
+}
+footer .feature-widget-area .feature-widget .social-media ul li {
+  display: inline-block;
+}
+
+#feature-area {
+  padding-bottom: 70px;
+  padding-top: 115px;
+}
+#feature-area .feature-item {
+  margin-bottom: 30px;
+}
+#feature-area .feature-item .feature-content {
+  overflow: hidden;
+}
+#feature-area .feature-item .feature-content h4 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  color: #1d2323;
+}
+#feature-area .feature-item .feature-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #545c5c;
+}
+#feature-area .feature-item .feature-icon {
+  float: left;
+  margin-right: 20px;
+  font-size: 22px;
+  color: #c18250;
+}
+#feature-area .feature-item p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #545c5c;
+}
+
+#herboil-custom-area .herboil-custom-area-info {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#herboil-custom-area .herboil-custom-area-info .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#herboil-custom-area .herboil-custom-area-info h1 {
+  color: #1d2323;
+  font-weight: 500;
+  line-height: 1.4;
+}
+#herboil-custom-area .herboil-custom-area-info p {
+  color: #545c5c;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+#herboil-custom-area .herboil-custom-area-info .boxed-btn {
+  display: inline-block;
+  padding: 10px 30px 9px;
+  border: 1px solid;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  z-index: 9;
+}
+#herboil-custom-area .herboil-custom-area-info .boxed-btn:hover {
+  background: #c18250;
+  color: #fff;
+}
+
+#herboil-product-area {
+  margin-bottom: 60px;
+  margin-top: 108px;
+}
+#herboil-product-area .herboil-section-title {
+  margin-bottom: 50px;
+}
+#herboil-product-area .herboil-section-title .section-title {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+#herboil-product-area .product-action {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+}
+#herboil-product-area .herboil-product-item {
+  margin-bottom: 60px;
+  position: relative;
+  background-color: #edeae6;
+  text-align: center;
+  width: 270px;
+}
+
+#herboil-banner-area {
+  margin-bottom: 90px;
+}
+#herboil-banner-area .banner-content {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 1.4;
+  color: #1d2323;
+}
+
+.herboil-banner-item {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.herboil-banner-item .banner-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  transition: all 3.5s ease 0s;
+}/*# sourceMappingURL=style.css.map */
